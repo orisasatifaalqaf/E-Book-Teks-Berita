@@ -75,8 +75,8 @@ const bookPages = [
     <div class="page">
         <div class="page-content">
             <h1>Kata Pengantar</h1>
-            <p>Puji syukur kami panjatkan atas selesainya penyusunan E-Book Teks Berita ini. E-book ini disusun sebagai bahan belajar mandiri bagi murid kelas XI (Fase F) pada mata pelajaran Bahasa Indonesia di SMA Muhammadiyah 2 Yogyakarta, sebagai pendamping pembelajaran berbasis proyek (Project Based Learning) dengan prinsip pembelajaran mendalam yang berkesadaran, bermakna, dan menggembirakan.</p>
-            <p>Isi e-book disusun runtut: mengenal teks berita, memahami unsur ADIKSIMBA dan strukturnya, menguasai kaidah kebahasaan, membedakan fakta dan opini, menyusun naskah berita, hingga menyajikannya dalam bentuk vlog berita. Di sejumlah bab tersedia kotak Coba Sendiri dan Tugas Pendalaman agar kamu langsung berlatih, bukan hanya membaca.</p>
+            <p>Puji syukur kami panjatkan atas selesainya penyusunan E-Book Teks Berita ini. E-book ini disusun sebagai bahan belajar mandiri bagi murid kelas XI (Fase F) pada mata pelajaran Bahasa Indonesia di SMA Muhammadiyah 2 Yogyakarta, sebagai pendamping pembelajaran penemuan (Discovery Learning) dengan prinsip pembelajaran mendalam yang berkesadaran, bermakna, dan menggembirakan.</p>
+            <p>Isi e-book disusun runtut: mengenal teks berita, memahami unsur ADIKSIMBA dan strukturnya, menguasai kaidah kebahasaan, membedakan fakta dan opini, menyusun naskah berita, hingga menyajikannya dalam bentuk vlog berita. Bab 1 sampai 5 menjadi inti pembelajaran, sedangkan Bab 6 dan 7 menjadi materi lanjutan untuk pengayaan. Di sejumlah bab tersedia kotak Coba Sendiri dan Tugas Pendalaman agar kamu langsung berlatih, bukan hanya membaca.</p>
             <p>Di tengah derasnya arus informasi, kemampuan menyampaikan dan menilai berita secara akurat, objektif, dan beretika menjadi bekal penting. Kami berharap e-book ini membantumu menjadi penyampai dan penerima informasi yang cerdas serta bertanggung jawab.</p>
             <p>Kritik dan saran untuk penyempurnaan e-book ini sangat kami harapkan. Selamat belajar dan berkarya.</p>
             <br>
@@ -355,22 +355,11 @@ const bookPages = [
                 Menurutmu, apakah judul contoh di atas sudah mencerminkan isi berita? Tulis alasannya dalam satu kalimat.
             </div>
             
-            <div class="essay-question" style="margin-top:10px;">
-                <p style="margin-bottom: 10px;"><strong>Tugas:</strong> Susunlah lima kalimat acak berikut agar membentuk struktur teks berita yang benar (Piramida Terbalik):</p>
-                <div style="background-color: #f7fafc; border: 1px solid #cbd5e0; border-radius: 6px; padding: 12px 15px; margin-bottom: 15px; font-size: 0.9em; line-height: 1.5; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
-                    <ol style="margin: 0; padding-left: 20px;">
-                        <li style="margin-bottom: 5px;">Pustakawan Sri mengatakan diskon hingga 50%.</li>
-                        <li style="margin-bottom: 5px;">Kegiatan 2 hari.</li>
-                        <li style="margin-bottom: 5px;">Bazar Buku Murah Digelar di SMA.</li>
-                        <li style="margin-bottom: 5px;">SMA menggelar bazar buku (23/9).</li>
-                        <li style="margin-bottom: 0;">Siswa dapat memilih buku fiksi.</li>
-                    </ol>
-                </div>
-                <button class="btn-jawab" onclick="window.toggleAnswer(this)"><i class="ph ph-pencil-simple"></i> Jawab</button>
-                <div class="answer-box">
-                    <textarea id="bab3-tugas" placeholder="Susunan urutan yang benar..."></textarea>
-                    <button class="btn-simpan" onclick="window.saveAnswer('bab3-tugas', this)"><i class="ph ph-floppy-disk"></i> Simpan</button>
-                </div>
+            <div style="background-color: #ebf8ff; border-left: 4px solid #3182ce; border-radius: 4px 8px 8px 4px; padding: 20px; margin-top: 15px; margin-bottom: 15px; text-align: center;">
+                <p style="color: #2b6cb0; font-weight: 600; margin-bottom: 15px; font-size: 0.95rem;">Mari uji pemahamanmu tentang Struktur Teks Berita melalui kuis interaktif berikut.</p>
+                <a href="https://wordwall.net/id/resource/120606698?wwmethod=link" target="_blank" style="display: inline-block; background-color: #3182ce; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 4px rgba(49, 130, 206, 0.3);">
+                    <i class="ph ph-game-controller" style="margin-right: 5px; font-size: 1.2em; vertical-align: middle;"></i> Mulai Kuis Interaktif
+                </a>
             </div>
             
             <div class="page-footer"><span>BAB 3 Struktur Teks Berita</span><span>6</span></div>
@@ -484,9 +473,9 @@ const bookPages = [
             </ol>
             
             <div style="background-color: #ebf8ff; border-left: 4px solid #3182ce; border-radius: 4px 8px 8px 4px; padding: 20px; margin-top: 25px; margin-bottom: 10px; text-align: center;">
-                <p style="color: #2b6cb0; font-weight: 600; margin-bottom: 15px; font-size: 0.95rem;">Selamat kamu sudah berhasil menyelesaikan materi sampai pada BAB 5. Sekarang saatnya menguji pemahamanmu melalui kuis interaktif berikut.</p>
-                <a href="https://wordwall.net/id/resource/120606698?wwmethod=link" target="_blank" style="display: inline-block; background-color: #3182ce; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 4px rgba(49, 130, 206, 0.3);">
-                    <i class="ph ph-game-controller" style="margin-right: 5px; font-size: 1.2em; vertical-align: middle;"></i> Mulai Kuis Interaktif
+                <p style="color: #2b6cb0; font-weight: 600; margin-bottom: 15px; font-size: 0.95rem;">Selamat kamu sudah berhasil menyelesaikan materi sampai pada BAB 5. Sekarang saatnya menguji pemahamanmu melalui kuis berikut.</p>
+                <a href="https://forms.gle/augY7YY5KbVhsyz2A" target="_blank" style="display: inline-block; background-color: #3182ce; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 4px rgba(49, 130, 206, 0.3);">
+                    <i class="ph ph-game-controller" style="margin-right: 5px; font-size: 1.2em; vertical-align: middle;"></i> Mulai Kuis
                 </a>
             </div>
             
